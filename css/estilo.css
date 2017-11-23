@@ -1,0 +1,313 @@
+@font-face{
+	font-family: 'Satellite';
+	src: url('../fonts/Satellite.otf') format('opentype');
+	font-family: 'GeosansLight';
+	src: url('../fonts/GeosansLight.otf') format('opentype');
+}
+ 
+body{
+background:rgb(230,230,230);
+}
+
+.navbar-brand{
+margin-top:-10px;
+}
+
+.navbar-inverse{
+background-color:#000000;
+}
+
+.navbar-bg{
+background:rgb(240,240,240);	
+border-radius:4px;
+width:98%;
+left:1%;
+height:99%;
+margin-bottom:1%;
+}
+
+.bpesq{
+padding-top:5px;
+margin-top:3px;
+}
+
+.center{
+text-align:center;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.titulo{
+font-family:satellite;
+font-size:30px;
+color:gray;
+}
+
+.cadTit{
+font-family:geosanslight;
+font-size:40px;
+color:gray;
+}
+
+.rodape{
+text-align: right;
+bottom:0;
+width:100%;
+}
+
+.btn-inverse {
+  color: #fff;
+  background-color: #222;
+  border-color: #080808;
+}
+.btn-inverse:focus,
+.btn-inverse.focus {
+  color: #fff;
+  background-color: #2a292a;
+  border-color: #000;
+}
+.btn-inverse:hover {
+  color: #fff;
+  background-color: #2a292a;
+  border-color: #34343e;
+}
+.btn-inverse:active,
+.btn-inverse.active,
+.open > .dropdown-toggle.btn-inverse {
+  color: #fff;
+  background-color: #2a292a;
+  border-color: #34343e;
+}
+.btn-inverse:active:hover,
+.btn-inverse.active:hover,
+.open > .dropdown-toggle.btn-inverse:hover,
+.btn-inverse:active:focus,
+.btn-inverse.active:focus,
+.open > .dropdown-toggle.btn-inverse:focus,
+.btn-inverse:active.focus,
+.btn-inverse.active.focus,
+.open > .dropdown-toggle.btn-inverse.focus {
+  color: #fff;
+  background-color: #34343e;
+  border-color: #000;
+}
+.btn-inverse:active,
+.btn-inverse.active,
+.open > .dropdown-toggle.btn-inverse {
+  background-image: none;
+}
+.btn-inverse.disabled:hover,
+.btn-inverse[disabled]:hover,
+fieldset[disabled] .btn-inverse:hover,
+.btn-inverse.disabled:focus,
+.btn-inverse[disabled]:focus,
+fieldset[disabled] .btn-inverse:focus,
+.btn-inverse.disabled.focus,
+.btn-inverse[disabled].focus,
+fieldset[disabled] .btn-inverse.focus {
+  background-color: #222;
+  border-color: #080808;
+}
+.btn-inverse .badge {
+  color: #222;
+  background-color: #fff;
+}
+
+@media screen and (max-device-width: 767px) { 
+
+.conteudo{
+margin-top: 35px;
+}
+.espaco-topo{
+margin-top: 58px;
+}
+.juntar-topo3{
+ margin-top:-40px;
+}
+
+.hr{
+	margin-top:-1px;
+}
+
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
+
+.conteudo{
+margin-top:38px;
+}
+.espaco-topo{
+margin-top:60px;
+}
+.juntar-topo3{
+ margin-top:-35px;
+}
+
+.hr{
+	margin-top:-1px;
+}
+
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1199px) { 
+
+.conteudo{
+margin-top:40px;
+}
+.espaco-topo{
+margin-top:20px;
+}
+
+.hr{
+	margin-top:-1px;
+}
+
+}
+
+@media screen and (min-device-width: 1200px){ 
+
+.conteudo{
+margin-top:45px;
+}
+.espaco-topo{
+margin-top:20px;
+}
+.hr{
+	margin-top:-5px;
+}
+
+}
+
+.juntar-topo{
+ margin-top:-20px;
+}
+.juntar-topo2{
+ margin-top:-35px;
+}
+
+.login{
+position:absolute;
+
+}
+.mc{
+color:#008C9E;
+}
+.btn-mus{
+  color: #fff;
+  background-color: #00B4CC;
+  border-color: #008C9E;
+}
+.btn-mus:focus,
+.btn-mus.focus {
+  color: #fff;
+  background-color: #008C9E;
+  border-color: #000;
+}
+.btn-mus:hover {
+  color: #fff;
+  background-color: #008C9E;
+  border-color: #005F6B;
+}
+.btn-mus:active,
+.btn-mus.active,
+.open > .dropdown-toggle.btn-mus {
+  color: #fff;
+  background-color: #008C9E;
+  border-color: #005F6B;
+}
+.btn-mus:active:hover,
+.btn-mus.active:hover,
+.open > .dropdown-toggle.btn-mus:hover,
+.btn-mus:active:focus,
+.btn-mus.active:focus,
+.open > .dropdown-toggle.btn-mus:focus,
+.btn-mus:active.focus,
+.btn-mus.active.focus,
+.open > .dropdown-toggle.btn-mus.focus {
+  color: #fff;
+  background-color: #00B4CC;
+  border-color: #008C9E;
+}
+.btn-mus:active,
+.btn-mus.active,
+.open > .dropdown-toggle.btn-mus {
+  background-image: none;
+}
+.btn-mus.disabled:hover,
+.btn-mus[disabled]:hover,
+fieldset[disabled] .btn-mus:hover,
+.btn-mus.disabled:focus,
+.btn-mus[disabled]:focus,
+fieldset[disabled] .btn-mus:focus,
+.btn-mus.disabled.focus,
+.btn-mus[disabled].focus,
+fieldset[disabled] .btn-mus.focus {
+  background-color: #005F6B;
+  border-color: #343838;
+}
+.btn-mus .badge {
+  color: #343838;
+  background-color: #00B4CC;
+}
+
+.foto{
+	border-radius:50%;
+	width:250px;
+	height:250px;
+}
+
+.foto2{
+	border-radius:50%;
+	width:120px;
+	height:120px;
+}
+
+.icone{
+	width:15px;
+	height:15px;
+}
+
+.nome{
+	font-family: geosanslight;
+	font-size: 40px;
+	color:#343838;
+}
+
+.mini{
+	height:40px;
+	width:40px;
+	border-radius:50%;
+}
+
+	
+progress {
+	margin: 5px auto;
+	display: block;
+	-webkit-appearance: none;
+	border: none;
+}
+
+progress::-webkit-progress-bar {
+	background: black;
+	border-radius: 50px;
+	padding: 2px;
+	box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+}
+
+progress::-webkit-progress-value {
+	border-radius: 50px;
+	box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+	background:
+		-webkit-linear-gradient(45deg, transparent, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%),
+		-webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
+		-webkit-linear-gradient(left, #00B4CC, #00DFFC);
+
+	background-size: 25px 14px, 100% 100%, 100% 100%;
+	-webkit-animation: move 5s linear 0 infinite;
+}
+
+@-webkit-keyframes move {
+	0% {background-position: 0px 0px, 0 0, 0 0}
+	100% {background-position: -100px 0px, 0 0, 0 0}
+}
+
